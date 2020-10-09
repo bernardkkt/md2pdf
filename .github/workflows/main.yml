@@ -26,17 +26,17 @@ jobs:
 
       # Run Markdown to PDF GitHub Action
       - name: Create PDF and HTML
-        uses: BaileyJM02/markdown-to-pdf@v1.0.1
+        uses: BaileyJM02/markdown-to-pdf@master
         with:
           input_dir: .
           output_dir: pdfs
           theme: assets/style.css
           images_dir: assets
-          images_path: ./assets
+          image_import: ./assets
           build_html: true
           
       # Upload artefacts
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2.2.0
         with:
           path: pdfs/*
 

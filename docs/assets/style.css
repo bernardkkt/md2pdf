@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.markdown-body {
+  font-family: "Varela Round", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #BfBfBf;
+}
+
+body{
+  -webkit-print-color-adjust:exact;
+}
+
+table {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+table tr th {
+  font-weight: bold;
+  border: 0;
+  text-align: left;
+  margin: 0;
+  padding: 4px 5px;
+  background-color: #BfBfBf;
+}
+
+table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 4px 5px;
+}
