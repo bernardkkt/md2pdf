@@ -6,9 +6,9 @@ name: CI
 # events but only for the main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ BaileyJM02 ]
   pull_request:
-    branches: [ main ]
+    branches: [ BaileyJM02 ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,7 +26,7 @@ jobs:
 
       # Run Markdown to PDF GitHub Action
       - name: Create PDF and HTML
-        uses: bernardkkt/markdown-to-pdf@master
+        uses: BaileyJM02/markdown-to-pdf@master
         with:
           input_dir: docs
           output_dir: pdfs
